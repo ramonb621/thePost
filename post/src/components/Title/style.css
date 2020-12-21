@@ -1,0 +1,10 @@
+.title {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0px;
+    font-size: 22pt;
+    background-color: gold;
+    text-indent: 25px;
+}
