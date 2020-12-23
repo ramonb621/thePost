@@ -3,7 +3,7 @@ import "./style.css";
 
 function Title() {
     return (
-        <p className="title">Art Post</p>
+        <p className="title">The Posts</p>
     );
 }
 

@@ -1,0 +1,10 @@
+.container {
+    display: block;
+    position: relative;
+    margin: 0px auto;
+}
+.main-heading {
+    display: block;
+    position: relative;
+    color: red;
+}
