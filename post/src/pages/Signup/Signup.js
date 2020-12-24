@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from "react";
 import { SignIn, Close, Submit } from "../../components/Icons";
 import { User, Password } from "../../components/Inputs";
-import "./Login.css";
+import "./Signup.css";
 
-class Login extends Component {
+class Signup extends Component {
 
     componentDidMount() {
 
@@ -12,14 +12,14 @@ class Login extends Component {
     render() {
         return (
             <div className="log-cont">
-                <p className="main-heading">Login</p>
+                <p className="main-heading">Register</p>
                 <p className="user-input">Username: <User /></p>
                 <p className="password-input">Password: <Password /></p>
-                <a className="join" href="#" target="_blank">Sign Up!</a>
-                <SignIn>Sign In</SignIn>
+                <a className="join" href="#" target="_blank">Login</a>
+                <Submit>Submit</Submit>
             </div>
         )
     }
 }
 
-export default Login;
+export default Signup;
