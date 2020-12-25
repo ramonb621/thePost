@@ -1,3 +1,38 @@
+.main-heading {
+    display: block;
+    position: relative;
+    margin: 25px 0px 0px 5%;
+    font-size: 16pt;
+}
+.log-cont {
+    display:block;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px lightslategray;
+    margin: 10% auto;
+    height: 50%;
+    width: 80%;
+}
+.user-input {
+    position: relative;
+    margin: 10% auto auto 25%;
+}
+.password-input {
+    position: relative;
+    margin: 5% auto 10% 25%;
+}
+.join {
+    position: relative;
+    float: right;
+    top: 8px;
+    right: 25%;
+    text-decoration: none;
+    color: black;
+}
+.join:hover {
+    color: royalblue;
+}
 @media screen and (max-width: 480px) {
 
 }
@@ -10,6 +45,9 @@
     }
     .pass-input {
         width: 50%;
+    }
+    .log-cont {
+        padding: 0 0 10%;
     }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {

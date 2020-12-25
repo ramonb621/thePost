@@ -7,4 +7,6 @@
     font-size: 24pt;
     background-color: gold;
     text-indent: 25px;
+    color: white;
+    box-shadow: 2px 2px 5px lightgray;
 }
