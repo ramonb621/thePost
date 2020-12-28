@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
 import { SignIn, Close, Submit } from "../../components/Icons";
 import { User, Password } from "../../components/Inputs";
 import "./Login.css";
@@ -15,7 +16,7 @@ class Login extends Component {
                 <p className="main-heading">Login</p>
                 <p className="user-input">Username: <User /></p>
                 <p className="password-input">Password: <Password /></p>
-                <a className="join" href="#" target="_blank">Sign Up!</a>
+                <Link to="/signup" className="join">Sign Up!</Link>
                 <SignIn>Sign In</SignIn>
             </div>
         )
