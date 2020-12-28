@@ -11,7 +11,7 @@
     border-radius: 15px;
     box-shadow: 2px 2px 5px lightslategray;
     margin: 10% auto;
-    height: 50%;
+    height: 300px;
     width: 80%;
 }
 .user-input {
@@ -49,14 +49,15 @@
     .log-cont {
         padding: 0 0 10%;
     }
-    .headshot-cont {
-        height: 68%;
-        width: 20%;
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .log-cont {
+        height: 400px;
     }
 }
-@media screen and (min-width: 1025px) {
-    .headshot-cont {
-        height: 68%;
-        width: 20%;
+@media screen and (min-width: 1201px) {
+    .log-cont {
+        height: 500px;
+        width: 60%;
     }
 }

@@ -3,3 +3,9 @@
     /* bottom: 40px; */
     /* right: 5%; */
 }
+.cont-desc {
+    position: relative;
+    width: 50%;
+    margin: 30px auto 0px;
+    font-size: 14pt;
+}

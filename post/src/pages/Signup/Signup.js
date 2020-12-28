@@ -14,6 +14,7 @@ class Signup extends Component {
         return (
             <div className="log-cont">
                 <p className="main-heading">Register</p>
+                <p className="cont-desc">Please enter log in information below!</p>
                 <p className="user-input">Username: <User /></p>
                 <p className="password-input">Password: <Password /></p>
                 <Link to="/login" className="join">Login</Link>
