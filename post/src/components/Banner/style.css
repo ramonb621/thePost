@@ -1,7 +1,7 @@
 .main-banner {
     position: fixed;
     width: 90%;
-    height: 30%;
+    height: 225px;
     border: 1px solid black;
     margin: 5% 5% 10px;
 }
@@ -9,9 +9,10 @@
     position: relative;
     display: block;
     border: 1px solid black;
-    width: 10%;
-    margin: 10px 10px;
+    width: 115px;
+    margin: 15px 10px 10px;
     padding: 5px;
+    text-align: center;
 }
 .name {
     position: relative;
@@ -19,10 +20,31 @@
     font-size: 16pt;
 }
 .headshot-cont {
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 0px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin: auto 10px;
+}
+.link-cont {
     position: relative;
     display: block;
-    border: 1px solid black;
-    /* height: 60%; */
-    /* width: 25%; */
+    height: 100px;
+    width: 150px;
     margin: auto 10px;
+}
+.social-head {
+    width: 160px;
+    margin: 20px 0px 5px;
+    font-size: 14pt;
+}
+li {
+    list-style: none;
+    margin: 0px 0px 5px 10px;
+}
+.fab {
+    font-size: 18pt;
 }

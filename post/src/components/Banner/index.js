@@ -4,7 +4,7 @@ import "./style.css";
 export function Banner({ children }) {
     return <div className="main-banner">
                 <div className="name-holder">
-                    <p className="name">blah
+                    <p className="name">Name Holder
                         {/* member name */}
                     </p>
                 </div>
@@ -15,6 +15,22 @@ export function Banner({ children }) {
                 </div>
                 <div className="link-cont">
                     {/* social media links (twitter, instagram, facebook) */}
+                    <p className="social-head">Social Media Links:</p>
+                    <li>
+                        <i className="fab fa-twitter-square">
+                            <a className="twitter-link"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i className="fab fa-instagram-square">
+                            <a className="insta-link"></a>
+                        </i>
+                    </li>
+                    <li>
+                        <i className="fab fa-facebook-square">
+                            <a className="fb-link"></a>
+                        </i>
+                    </li>
                 </div>
             </div>
 };
