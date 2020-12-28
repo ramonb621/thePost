@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { Carousel } from "../../components/Carousel";
+import { Banner } from "../../components/Banner";
 import "./Home.css";
 
 class Home extends Component {
@@ -19,7 +19,9 @@ class Home extends Component {
         return (
             <div className="container">
                 <p className="main-heading">Home</p>
-                <Carousel></Carousel>
+                <Banner>
+
+                </Banner>
             </div>
         )
     }

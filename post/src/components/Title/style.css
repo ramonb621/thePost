@@ -8,5 +8,6 @@
     background-color: gold;
     text-indent: 25px;
     color: white;
+    text-shadow: 2px 2px 5px lightslategray;
     box-shadow: 2px 2px 5px lightgray;
 }

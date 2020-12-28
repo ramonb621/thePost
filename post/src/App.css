@@ -49,7 +49,14 @@
     .log-cont {
         padding: 0 0 10%;
     }
+    .headshot-cont {
+        height: 68%;
+        width: 20%;
+    }
 }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-
+@media screen and (min-width: 1025px) {
+    .headshot-cont {
+        height: 68%;
+        width: 20%;
+    }
 }
