@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 
 export function User({ children }) {
-    return <input className="username">{ children }</input>
+    return <input type="text" className="username">{ children }</input>
 }
 
 export function Password({ children }) {
-    return <input className="pass-input">{ children }</input>
+    return <input type="text" className="pass-input">{ children }</input>
 }

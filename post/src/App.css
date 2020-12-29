@@ -11,22 +11,24 @@
     border-radius: 15px;
     box-shadow: 2px 2px 5px lightslategray;
     margin: 10% auto;
-    height: 300px;
-    width: 80%;
+    height: 315px;
+    width: 70%;
 }
 .user-input {
     position: relative;
-    margin: 10% auto auto 25%;
+    width: 50%;
+    margin: 11% auto auto;
 }
 .password-input {
     position: relative;
-    margin: 5% auto 10% 25%;
+    width: 50%;
+    margin: 5% auto 10%;
 }
 .join {
     position: relative;
     float: right;
-    top: 8px;
-    right: 25%;
+    top: 12px;
+    right: 170px;
     text-decoration: none;
     color: black;
 }
@@ -37,7 +39,24 @@
 
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-
+    .log-cont {
+        height: 340px;
+    }
+    .user-input {
+        margin-top: 7%;
+    }
+    .password-input {
+        margin-bottom: 4%;
+    }
+    .join {
+        top: 5px;
+        right: 140px;
+    }
+    .login {
+        left: 25px;
+        font-size: 12pt;
+        top: 0px;
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .username {
@@ -49,15 +68,32 @@
     .log-cont {
         padding: 0 0 10%;
     }
+    .login {
+        padding: 10px 15px;
+    }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     .log-cont {
         height: 400px;
+        width: 60%;
+    }
+    .join {
+        top: -8px;
+    }
+    .login {
+        padding: 10px 15px;
+        bottom: 20px;
     }
 }
 @media screen and (min-width: 1201px) {
     .log-cont {
-        height: 500px;
+        height: 450px;
         width: 60%;
+    }
+    .join {
+        right: 185px;
+    }
+    .login {
+        padding: 10px 15px;
     }
 }
