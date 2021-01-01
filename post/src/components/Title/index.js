@@ -4,7 +4,9 @@ import "./style.css";
 
 function Title() {
     return (
-        <Link to="/" className="title">The Posts</Link>
+        <div className="title">
+            <Link to="/" className="title-link">The Posts</Link>
+        </div>
     );
 }
 

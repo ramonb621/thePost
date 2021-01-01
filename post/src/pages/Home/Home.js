@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Navbar, Search } from "../../components/Navbar";
 import { Banner } from "../../components/Banner";
 import "./Home.css";
 
@@ -18,10 +19,10 @@ class Home extends Component {
     render() {
         return (
             <div className="container">
+                <Navbar />
+                <Search />
                 <p className="main-heading">Home</p>
-                <Banner>
-
-                </Banner>
+                <Banner />
             </div>
         )
     }
