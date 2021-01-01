@@ -2,12 +2,15 @@
     display: flex;
     position: relative;
     width: 100%;
-    margin: 0px;
     padding: 15px 0px;
-    font-size: 24pt;
     background-color: gold;
+    box-shadow: 2px 2px 5px lightgray;
+}
+.title-link {
+    font-size: 24pt;
     text-indent: 25px;
+    margin: 0px;
+    text-decoration: none;
     color: white;
     text-shadow: 2px 2px 5px lightslategray;
-    box-shadow: 2px 2px 5px lightgray;
 }

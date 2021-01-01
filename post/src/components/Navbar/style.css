@@ -1,0 +1,36 @@
+.main-nav {
+    position: fixed;
+    float: right;
+    top: 30px;
+    right: 10%;
+    font-size: 12pt;
+}
+.home, .news {
+    position: relative;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px lightslategray;
+}
+.main-search, .search-btn {
+    position: relative;
+    right: 15%;
+    margin: auto 5px;
+}
+.main-search {
+    height: 18px;
+    width: 200px;
+}
+.search-btn {
+    padding: 2px 5px;
+    background-color: lightsteelblue;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    top: 2px;
+}
+.search-btn:hover {
+    color: royalblue;
+    text-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px lightslategrey;
+}

@@ -1,6 +1,5 @@
-/* .username {
-    margin-left: 0;
+.username, .pass-input {
+    height: 20px;
+    width: 80%;
+    font-size: 12pt;
 }
-.pass-input {
-    padding: auto;
-} */
