@@ -9,6 +9,8 @@ export function Navbar() {
             <Link to="/" className="search-btn">Search</Link>
             <a className="home" href="/">Home</a>
             <a className="news">News</a>
+            <a className="explore">Explore</a>
+            <a className="connections">Connections</a>
         </div>
     )
 }
