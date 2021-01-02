@@ -1,9 +1,10 @@
 .main-banner {
-    position: fixed;
+    position: relative;
+    display: block;
     width: 90%;
     height: 225px;
     border: 1px solid black;
-    margin: 5% 5% 10px;
+    margin: 5% 5% 0px;
 }
 .name-holder {
     position: relative;
@@ -34,11 +35,11 @@
     display: block;
     height: 100px;
     width: 150px;
-    margin: auto 10px;
+    margin: 30px 10px;
 }
 .social-head {
     width: 160px;
-    margin: 20px 0px 5px;
+    margin: 20px 0px 15px;
     font-size: 14pt;
 }
 li {

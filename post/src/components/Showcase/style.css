@@ -1,0 +1,12 @@
+.showcase-cont {
+    position: relative;
+    display: block;
+    height: 300px;
+    width: 90%;
+    border: 1px solid black;
+    margin: 0px 5%;
+}
+.showcase-head {
+    font-size: 14pt;
+    text-indent: 15px;
+}
