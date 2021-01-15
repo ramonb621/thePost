@@ -60,10 +60,10 @@
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .username {
-        width: 50%;
+        width: 60%;
     }
     .pass-input {
-        width: 50%;
+        width: 60%;
     }
     .log-cont {
         padding: 0 0 10%;
