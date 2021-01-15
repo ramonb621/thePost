@@ -12,13 +12,37 @@ class Signup extends Component {
 
     render() {
         return (
-            <div className="log-cont">
-                <p className="main-heading">Register</p>
-                <p className="cont-desc">Please enter log in information below!</p>
-                <p className="user-input">Username: <User /></p>
-                <p className="password-input">Password: <Password /></p>
-                <Link to="/login" className="join">Login</Link>
-                <Submit>Submit</Submit>
+            <div className="signup-cont">
+                <form>                
+                    <div id="f-name">First Name:
+                        <input className="f-name" type="text"></input>
+                    </div>                                    
+                    <div id="l-name">Last Name:
+                        <input className="l-name" type="text"></input>
+                    </div>                                    
+                    <div id="bday">Birtday:
+                        <input className="bday" type="text"></input>
+                    </div>    
+                    <div id="city">City:                 
+                        <input className="city" type="text"></input>
+                    </div>                                
+                    <div id="state">State:
+                        <input className="state" type="text"></input>
+                    </div>                
+                    <div id="email">Email:
+                        <input className="email" type="text"></input>
+                    </div>              
+                    <div id="tweet">Twitter:
+                        <input className="tweet" type="text"></input>
+                    </div>               
+                    <div id="i-gram">Instagram
+                        <input className="i-gram" type="text"></input>
+                    </div>                
+                    <div id="f-book">Facebook:
+                        <input className="f-book" type="text"></input>
+                    </div>            
+                    <Submit>Submit</Submit>
+                </form>
             </div>
         )
     }
