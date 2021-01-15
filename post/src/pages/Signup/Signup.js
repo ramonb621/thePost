@@ -13,6 +13,7 @@ class Signup extends Component {
     render() {
         return (
             <div className="signup-cont">
+                <p className="reg-head">Registration</p>
                 <form>                
                     <div id="f-name">First Name:
                         <input className="f-name" type="text"></input>
@@ -40,7 +41,10 @@ class Signup extends Component {
                     </div>                
                     <div id="f-book">Facebook:
                         <input className="f-book" type="text"></input>
-                    </div>            
+                    </div>   
+                    <div id="about">About Me:
+                        <textarea className="about" type="text" rows="4" cols="50"></textarea>
+                    </div>         
                     <Submit>Submit</Submit>
                 </form>
             </div>

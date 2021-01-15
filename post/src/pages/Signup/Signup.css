@@ -2,14 +2,25 @@
     position: relative;
     display: block;
     width: 80%;
-    margin: 100px auto 0px;
+    margin: 90px auto 0px;
 }
-#f-name, #l-name,  #bday, #city, #state, #email, #tweet, #i-gram, #f-book {
+.reg-head {
+    position: relative;
+    bottom: 60px;
+    font-size: 16pt;
+    right: 30px;
+}
+#f-name, #l-name,  #bday, #city, #state, #email, #tweet, #i-gram, #f-book, #about {
     margin-top: 25px;
+    left: 25px;
 }
-.f-name, .l-name,  .bday, .city, .state, .email, .tweet, .i-gram, .f-book {
+.f-name, .l-name,  .bday, .city, .state, .email, .tweet, .i-gram, .f-book, .about {
     width: 170px;
     margin-left: 10px;
+}
+.about {
+    width: 300px;
+    height: 150px;
 }
 .submit {
     float: right;
